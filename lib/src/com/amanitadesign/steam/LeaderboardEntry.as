@@ -9,6 +9,7 @@
 package com.amanitadesign.steam {
 	public class LeaderboardEntry {
 		public var userID:String;
+		public var personaName:String;
 		public var globalRank:int;
 		public var score:int;
 		public var numDetails:int;
