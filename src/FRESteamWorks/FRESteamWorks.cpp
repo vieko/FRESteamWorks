@@ -219,6 +219,12 @@ AIR_FUNC(AIRSteam_GetPersonaName) {
 	return FREString(g_Steam->GetPersonaName());
 }
 
+AIR_FUNC(AIRSteam_GetFriendPersonaName) {
+	if (!g_Steam) return FREString("");
+	CSteamID userID;
+	return FREString(g_Steam->GetFriendPersonaName(userID));
+}
+
 AIR_FUNC(AIRSteam_UseCrashHandler) {
 	if (argc != 4) return FREBool(false);
 

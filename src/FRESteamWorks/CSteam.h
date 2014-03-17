@@ -101,6 +101,8 @@ public:
 	std::string GetAvailableGameLanguages();
 	std::string GetCurrentGameLanguage();
 	std::string GetPersonaName();
+    std::string GetFriendPersonaName(CSteamID userID);
+    
 
 	// stats/achievements
 	bool RequestStats();

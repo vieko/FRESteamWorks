@@ -17,8 +17,8 @@
 		121432FE15298AAF003FF426 /* FRESteamWorks.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FRESteamWorks.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1214330E15298AAF003FF426 /* FRESteamWorks.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; path = FRESteamWorks.h; sourceTree = "<group>"; usesTabs = 1; };
 		1214330F15298AAF003FF426 /* FRESteamWorks.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; path = FRESteamWorks.cpp; sourceTree = "<group>"; usesTabs = 1; };
-		1214331815298C47003FF426 /* libsteam_api.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsteam_api.dylib; path = ../../SteamSDK/redistributable_bin/osx32/libsteam_api.dylib; sourceTree = SOURCE_ROOT; };
-		54B6962116AB356400CFBD85 /* Adobe AIR.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "Adobe AIR.framework"; path = "../../AdobeAIRSDK/runtimes/air/mac/Adobe AIR.framework"; sourceTree = "<group>"; };
+		1214331815298C47003FF426 /* libsteam_api.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsteam_api.dylib; path = ../../../Resources/steamworks_sdk_1_2_8/redistributable_bin/osx32/libsteam_api.dylib; sourceTree = SOURCE_ROOT; };
+		54B6962116AB356400CFBD85 /* Adobe AIR.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "Adobe AIR.framework"; path = "../../../Resources/flex_sdk_4_6_air_4_0/runtimes/air/mac/Adobe AIR.framework"; sourceTree = "<group>"; };
 		54FA319B16C5B28E00BC2F1B /* CSteam.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CSteam.cpp; sourceTree = "<group>"; };
 		54FA319C16C5B28E00BC2F1B /* CSteam.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSteam.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -176,7 +176,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
-				FRAMEWORK_SEARCH_PATHS = ../../AdobeAIRSDK/runtimes/air/mac;
+				FRAMEWORK_SEARCH_PATHS = ../../../Resources/flex_sdk_4_6_air_4_0/runtimes/air/mac;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_ENABLE_OBJC_EXCEPTIONS = NO;
@@ -203,13 +203,13 @@
 				GCC_WARN_UNUSED_PARAMETER = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				HEADER_SEARCH_PATHS = (
-					../../SteamSDK/public/steam,
-					../../AdobeAIRSDK/include,
+					../../../Resources/steamworks_sdk_1_2_8/public/steam,
+					../../../Resources/flex_sdk_4_6_air_4_0/include,
 				);
 				INFOPLIST_FILE = "";
 				INSTALL_PATH = "@rpath";
 				LD_RUNPATH_SEARCH_PATHS = "\"@executable_path/../Frameworks\" \"/Library/Frameworks\"";
-				LIBRARY_SEARCH_PATHS = ../../SteamSDK/redistributable_bin/osx32;
+				LIBRARY_SEARCH_PATHS = ../../../Resources/steamworks_sdk_1_2_8/redistributable_bin/osx32;
 				MACH_O_TYPE = mh_dylib;
 				MACOSX_DEPLOYMENT_TARGET = 10.6;
 				ONLY_ACTIVE_ARCH = NO;
@@ -247,7 +247,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
-				FRAMEWORK_SEARCH_PATHS = ../../AdobeAIRSDK/runtimes/air/mac;
+				FRAMEWORK_SEARCH_PATHS = ../../../Resources/flex_sdk_4_6_air_4_0/runtimes/air/mac;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_ENABLE_OBJC_EXCEPTIONS = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = NO;
@@ -271,13 +271,13 @@
 				GCC_WARN_UNUSED_PARAMETER = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				HEADER_SEARCH_PATHS = (
-					../../SteamSDK/public/steam,
-					../../AdobeAIRSDK/include,
+					../../../Resources/steamworks_sdk_1_2_8/public/steam,
+					../../../Resources/flex_sdk_4_6_air_4_0/include,
 				);
 				INFOPLIST_FILE = "";
 				INSTALL_PATH = "@rpath";
 				LD_RUNPATH_SEARCH_PATHS = "\"@executable_path/../Frameworks\" \"/Library/Frameworks\"";
-				LIBRARY_SEARCH_PATHS = ../../SteamSDK/redistributable_bin/osx32;
+				LIBRARY_SEARCH_PATHS = ../../../Resources/steamworks_sdk_1_2_8/redistributable_bin/osx32;
 				MACH_O_TYPE = mh_dylib;
 				MACOSX_DEPLOYMENT_TARGET = 10.6;
 				ONLY_ACTIVE_ARCH = NO;

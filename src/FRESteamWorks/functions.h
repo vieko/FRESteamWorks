@@ -7,6 +7,7 @@ X(AIRSteam_GetAppID) /* = 3 */
 X(AIRSteam_GetAvailableGameLanguages) /* = 4 */
 X(AIRSteam_GetCurrentGameLanguage) /* = 5 */
 X(AIRSteam_GetPersonaName) /* = 6 */
+X(AIRSteam_GetFriendPersonaName) /* = 6 */
 X(AIRSteam_UseCrashHandler) /* = 7 */
 /* stats/achievements */
 X(AIRSteam_RequestStats) /* = 8 */

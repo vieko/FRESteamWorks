@@ -69,6 +69,12 @@ std::string CSteam::GetPersonaName() {
 	return std::string(SteamFriends()->GetPersonaName());
 }
 
+std::string CSteam::GetFriendPersonaName(CSteamID userID) {
+	if (!m_bInitialized) return "";
+    
+	return std::string(SteamFriends()->GetFriendPersonaName(userID));
+}
+
 // stats/achievements
 
 bool CSteam::SetAchievement(std::string name) {
